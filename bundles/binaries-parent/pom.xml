@@ -117,6 +117,9 @@
                             </target>
                         </configuration>
                     </execution>
+					<!-- This creates swt distribution: swt-I${date}-{time}-${ws}.${os}.${arch}.zip 
+					which we do not need -->
+					<!--
                     <execution>
                         <id>swtdownload</id>
                         <phase>package</phase>
@@ -130,6 +133,7 @@
                             </target>
                         </configuration>
                     </execution>
+					-->
                 </executions>
                 <dependencies>
                     <dependency>
